@@ -22,8 +22,8 @@ Will Start with English description first. Then expand the model to other langua
 4. Base on the vector, build LDA model on each row of record. Extract five (changable) topic keywords in each of the top five (changable) topics. 
 
 ------ Until Now ---------
-(Next step)
 
+(Next step)
 5. Combine the result back into the dataset, with each column has a list of keywords.
 
 #### Thoughts:
