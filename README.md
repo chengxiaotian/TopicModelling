@@ -23,6 +23,7 @@ Will Start with English description first. Then expand the model to other langua
 4. Base on the vector, build LDA model on each row of record. Extract five (changable) topic keywords in each of the top five (changable) topics. 
 
 *April 6th, 2020*
+
 5. implemented three other models using off-the-shelf packages provided by python: RAKE, textRank, as well as tf-idf. 
 Likewise LDA model, tf-idf also provide keywords, whilst RAKE and textRank provide keywords as well as key phrases. 
 
