@@ -28,6 +28,7 @@ Will Start with English description first. Then expand the model to other langua
 Likewise LDA model, tf-idf also provide keywords, whilst RAKE and textRank provide keywords as well as key phrases. 
 
 *April 7h, 2020*
+
 6. revised tf-idf model, added lemmetization and customized stopword list. 
 7. keyword result is integrated back into entire dataset, with each keyword as a seperate column. 
 8. built wordCloud for visualizing the distribution of app_genre.
