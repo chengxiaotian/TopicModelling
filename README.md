@@ -33,7 +33,7 @@ Likewise LDA model, tf-idf also provide keywords, whilst RAKE and textRank provi
 7. keyword result is integrated back into entire dataset, with each keyword as a seperate column. 
 8. built wordCloud for visualizing the distribution of app_genre.
 
-*April 7th, 2020*
+*April 9th, 2020*
 
 9. expanded the tf-idf model to two other languages to two other languages other than English: Chinese and Bahasa.
 
