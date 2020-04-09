@@ -27,16 +27,21 @@ Will Start with English description first. Then expand the model to other langua
 5. implemented three other models using off-the-shelf packages provided by python: RAKE, textRank, as well as tf-idf. 
 Likewise LDA model, tf-idf also provide keywords, whilst RAKE and textRank provide keywords as well as key phrases. 
 
-*April 7h, 2020*
+*April 7th, 2020*
 
 6. revised tf-idf model, added lemmetization and customized stopword list. 
 7. keyword result is integrated back into entire dataset, with each keyword as a seperate column. 
 8. built wordCloud for visualizing the distribution of app_genre.
 
+*April 7th, 2020*
+
+9. expanded the tf-idf model to two other languages to two other languages other than English: Chinese and Bahasa.
+
 ------ Until Now ---------
 
 (Next step)
-8. expand the model to other languages outside English contents.
+
+8. encapsulate the three models so later can call the model by passing parameters: stopword, stemmer, tokenizer
 
 #### Thoughts:
 1. Besides topic modelling, to realize keyword auto tagging, can also use "genre" column, to find out the word(s) with the closest similarity from these genre tags. 
