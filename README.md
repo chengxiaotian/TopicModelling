@@ -1,8 +1,12 @@
+# Keyword Extraction from Description
+The "description" column consists of free-text of different languages including English, Bahasa, Chinese, Korean, Japanese, etc.
+Objective is to realize automatically keyword extraction from the given texts. 
 
-## Topic Modelling - LDA model with Pyspark
-
-Attempts to use Topic modelling method to automatically extract key topics from descriptions. 
-
+### Models Experimented:
+- Topic Modelling - LDA model with Pyspark  (extract keywords)
+- TF-IDF (extract keywords)
+- RAKE package from python (extract keywords & key phrases)
+- textRank package (extract keywords & key phrases)
 
 ### Exploration
 After downloading parquet file, performed simple data exploration. 
@@ -15,7 +19,7 @@ After downloading parquet file, performed simple data exploration.
 ### Starting point
 Will Start with English description first. Then expand the model to other languages in later phase. 
 
-### Implementation Planning
+### Implementation Phase
 *April 3rd, 2020*
 1. Detect language used in the "description", and create new column "lang_code" storing the code. For the ease of later analysis. 
 2. Text cleaning, removing punctuation/stopwords, then get it tokenized.
