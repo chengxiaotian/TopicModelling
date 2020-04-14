@@ -41,11 +41,12 @@ Likewise LDA model, tf-idf also provide keywords, whilst RAKE and textRank provi
 
 9. expanded the tf-idf model to two other languages to two other languages other than English: Chinese and Bahasa.
 
+*April 13th, 2020*
+
+10. encapsulate the three models (English, Chinese, Bahasa), which covers roughly 90% of the records for each dataset. 
+
 ------ Until Now ---------
 
-(Next step)
-
-8. encapsulate the three models so later can call the model by passing parameters: stopword, stemmer, tokenizer
 
 #### Thoughts:
 1. Besides topic modelling, to realize keyword auto tagging, can also use "genre" column, to find out the word(s) with the closest similarity from these genre tags. 
